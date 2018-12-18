@@ -1,0 +1,18 @@
+2ème séance sur le barduino.
+
+Aujourd'hui, comme les courroies ne sont pas arrivées, je voulais travailler sur le code des moteurs.
+Malheureusement, je n'ai pas réussi à faire fonctionner le moteur pas à pas alors que la séance précédente j'y arrivais très bien.
+Comme j'ai perdu beaucoup de temps à essayer de le faire fonctionner, j'ai choisi de travailler avec des moteurs CC à la place.
+En effet, les moteurs CC sont envisageables car la précision dont nous avons besoin n'est pas très grande (il faut juste être assez précis 
+pour que le verre se place en dessous de la bouteille).
+De plus je connais déjà comment coder un moteur CC (pareil que pour la voiture). La partie qui m'a pris le plus de temps est donc 
+l'installation.
+Il m'a fallu souder deux fils (un pour la masse et un pour VCC) à chaque moteur. Par la suite, j'ai reproduit les branchements du cours. 
+Une fois que les moteurs tournaient, j'ai essayé d'installer un cylindre sur l'un des moteurs. Malheureuselent la tige du moteur était trop 
+petite (le rayon de la tige était inférieur au rayon de la surface interne du cylindre). En vissant du mieux que je pouvais je n'arrivais 
+pas à fixer le cylindre de manière à ce qu'il soit axé sur la tige. J'ai donc enroulé du scotch sur la tige pour augmenter son rayon. Au
+final le résultat est convenable.
+Pour terminer, je n'ai pas beaucoup avancé sur le code comme je le voulais. Pour rattraper cela, j'essayerais de travaillé dessus 
+pendant les vacances.
+
+Armel Guinard
