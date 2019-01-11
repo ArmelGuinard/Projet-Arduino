@@ -1,0 +1,24 @@
+Aujourd'hui c'est la première séance après les vacances de Noël.
+
+Pendant ces vacances je n'avais pas à disposition les moteurs mais j'ai quand même coder le déplacement du plateau.
+Tout d'abord je pensais convertir les distances à parcourir en temps de déplacement du plateau mais comme les moteurs à courant continu 
+accélèrent progressivement et que la vitesse du plateau dépend de son poids et donc varie en fonction du remplissage du verre j'ai opté 
+pour autre chose.
+Je vais installer deux capteurs de distance pour connaitre en permanence la position du plateau en x et en y. Je vais déterminer la position
+de chaque bouteille en x et en y.
+Je fais ensuite varier la vitesse du plateau en fonction de la distance qui lui reste à parcourir.
+Dans le code il y aura deux fonctions en plus du main.
+La première est déjà finie, il s'agit de la fonction codant le déplacement du plateau.
+La deuxième consiste à faire fonctionner le servomoteur pour servir un nombre de doses donnée. Elle n'est pas encore commencée.
+
+Aujourd'hui je comptais tester le déplacement du plateau mais nous n'avions pas encore fixé ce dernier car les courroies sont seulement 
+arrivées pendant les vacances. J'ai donc démonté le dernier moteur pas à pas, démonté la vis sans fin associée et décollé des pièces de bois 
+du plateau pour pouvoir fixer la courroie qui déplace le plateau sur la longueur à la place. Au final j'ai fixé la courroie légèrement plus 
+sur l'arrière du plateau. 
+Ensuite j'ai fixé le premier moteur au socle du barduino (une tâche compliquée car la visseuse ne passait pas d'un des côtés du moteur).
+Pour finir, j'ai commencé à m'intéresser à la poulie à l'autre bout de la courroie. J'ai sélectionné une vis sur laquelle nous laisserons la
+poulie tourner, j'ai placer un écrou pour contraindre la poulie de rester à la bonne position et j'ai coupé une pièce de bois pour fixer la 
+vis à la bonne hauteur.
+
+Il restera à fixer la deuxième courroie, à fixer les deux détecteurs de position et à cabler ces derniers.
+Par la suite je pourrais tester la partie déplacement du plateau.
